@@ -3,7 +3,10 @@
 A fully functional Spotify-inspired music player built using **HTML, CSS, and Vanilla JavaScript**.  
 Focused on recreating Spotify-inspired UI/UX and implementing core music player functionality from scratch using Vanilla JavaScript.
 
-## Preview
+## 🚀 Live Demo
+🔗 [Click here to see live demo](https://aaryavikasboya.github.io/spotify-clone/)
+
+## 📸 Preview
 
 ### Desktop View
 
