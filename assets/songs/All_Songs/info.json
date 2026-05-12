@@ -1,48 +1,48 @@
 {
     "allSongs": {
         "title": "Songs",
-        "cover": "assets/songs/ALL_Songs/cover.jpg",
+        "cover": "assets/songs/All_Songs/cover.jpg",
         "songs": [
             {
                 "title": "Heavy Metal Hard Rock",
                 "artist": "SOULFULJAMTRACKS",
-                "src": "assets/songs/ALL_Songs/angry.mp3",
+                "src": "assets/songs/All_Songs/angry.mp3",
                 "cover": "assets/songs/Moods_list/Angry/cover.jpg"
             },
             {
                 "title": "On & On",
                 "artist": "Cartoon, Daniel Levi, Jéja",
-                "src": "assets/songs/ALL_Songs/on-and-on.mp3",
+                "src": "assets/songs/All_Songs/on-and-on.mp3",
                 "cover": "assets/songs/Moods_list/Angry/cover.jpg"
             },
             {
                 "title": "Energy",
                 "artist": "Elektronomia",
-                "src": "assets/songs/ALL_Songs/energy.mp3",
+                "src": "assets/songs/All_Songs/energy.mp3",
                 "cover": "assets/songs/Moods_list/Uplifting/cover.jpg"
             },
             {
                 "title": "Invincible",
                 "artist": "DEAF KEV",
-                "src": "assets/songs/ALL_Songs/invincible.mp3",
+                "src": "assets/songs/All_Songs/invincible.mp3",
                 "cover": "assets/songs/Moods_list/Uplifting/cover.jpg"
             },
             {
                 "title": "Sky High",
                 "artist": "Elektronomia",
-                "src": "assets/songs/ALL_Songs/sky-high.mp3",
+                "src": "assets/songs/All_Songs/sky-high.mp3",
                 "cover": "assets/songs/Moods_list/Bright/cover.jpg"
             },
             {
                 "title": "Fearless (Sped Up)",
                 "artist": "Lost Sky",
-                "src": "assets/songs/ALL_Songs/fearless.mp3",
+                "src": "assets/songs/All_Songs/fearless.mp3",
                 "cover": "assets/songs/Moods_list/Dark/cover.jpg"
             },
             {
                 "title": "Mortals (Sped Up)",
                 "artist": "Warriyo, Laura Brehm",
-                "src": "assets/songs/ALL_Songs/mortals.mp3",
+                "src": "assets/songs/All_Songs/mortals.mp3",
                 "cover": "assets/songs/Moods_list/Dark/cover.jpg"
             },
             {
@@ -54,13 +54,13 @@
             {
                 "title": "Where We Started",
                 "artist": "Lost Sky, Jex",
-                "src": "assets/songs/ALL_Songs/where-we-started.mp3",
+                "src": "assets/songs/All_Songs/where-we-started.mp3",
                 "cover": "assets/songs/Moods_list/Love/cover.jpg"
             },
             {
                 "title": "Symbolism",
                 "artist": "Electro-Light",
-                "src": "assets/songs/ALL_Songs/symbolism.mp3",
+                "src": "assets/songs/All_Songs/symbolism.mp3",
                 "cover": "assets/songs/Moods_list/Funky/cover.jpg"
             }
         ]
