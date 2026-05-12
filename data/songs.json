@@ -1,0 +1,76 @@
+{
+    "Angry": [
+        {
+            "title": "Heavy Metal Hard Rock",
+            "artist": "SOULFULJAMTRACKS",
+            "src": "assets/songs/Moods_list/Angry/angry.mp3",
+            "cover": "assets/songs/Moods_list/Angry/cover.jpg"
+        }
+    ],
+    "Chill": [
+        {
+            "title": "On & On",
+            "artist": "Cartoon, Daniel Levi, Jéja",
+            "src": "assets/songs/Moods_list/Chill/on-and-on.mp3",
+            "cover": "assets/songs/Moods_list/Chill/cover.jpg"
+        }
+    ],
+    "Uplifting": [
+        {
+            "title": "Energy",
+            "artist": "Elektronomia",
+            "src": "assets/songs/Moods_list/Uplifting/energy.mp3",
+            "cover": "assets/songs/Moods_list/Uplifting/cover.jpg"
+        },
+        {
+            "title": "Invincible",
+            "artist": "DEAF KEV",
+            "src": "assets/songs/Moods_list/Uplifting/invincible.mp3",
+            "cover": "assets/songs/Moods_list/Uplifting/cover.jpg"
+        }
+    ],
+    "Bright": [
+        {
+            "title": "Sky High",
+            "artist": "Elektronomia",
+            "src": "assets/songs/Moods_list/Bright/sky-high.mp3",
+            "cover": "assets/songs/Moods_list/Bright/cover.jpg"
+        }
+    ],
+    "Dark": [
+        {
+            "title": "Fearless (Sped Up)",
+            "artist": "Lost Sky",
+            "src": "assets/songs/Moods_list/Dark/fearless.mp3",
+            "cover": "assets/songs/Moods_list/Dark/cover.jpg"
+        },
+        {
+            "title": "Mortals (Sped Up)",
+            "artist": "Warriyo, Laura Brehm",
+            "src": "assets/songs/Moods_list/Dark/mortals.mp3",
+            "cover": "assets/songs/Moods_list/Dark/cover.jpg"
+        }
+    ],
+    "Love": [
+        {
+            "title": "Make Me Move",
+            "artist": "Culture Code, KARRA",
+            "src": "assets/songs/Moods_list/Love/make-me-move.mp3",
+            "cover": "assets/songs/Moods_list/Love/cover.jpg"
+        },
+        {
+            "title": "Where We Started",
+            "artist": "Lost Sky, Jex",
+            "src": "assets/songs/Moods_list/Love/where-we-started.mp3",
+            "cover": "assets/songs/Moods_list/Love/cover.jpg"
+        }
+    ],
+    "Funky": [
+        {
+            "title": "Symbolism",
+            "artist": "Electro-Light",
+            "src": "assets/songs/Moods_list/Funky/symbolism.mp3",
+            "cover": "assets/songs/Moods_list/Funky/cover.jpg"
+        }
+    ]
+}

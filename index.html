@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav>
+        <img class="invert-to-gray hamburger" src="assets/Images/library.svg" alt="">
+        <div class="logo">
+            <img class="invert-color" src="assets/Images/logo.svg" alt="">
+        </div>
+        <div class="search-container">
+            <div class="home">
+                <a href="/">
+                    <img class="invert-color" id="home-icon" src="assets/Images/home.svg" alt="">
+
+                </a>
+            </div>
+            <div class="search">
+                <img class="invert-to-gray" id="search" src="assets/Images/search.svg" alt="">
+                <input id="searchbar" placeholder="What do you want to play?" type="text">
+                <div class="searchDropdown hidden"></div>
+                <img class="invert-to-gray" id="browse" src="assets/Images/browse.svg" alt="">
+            </div>
+        </div>
+        <div class="log">
+            <input id="sign-up" type="button" value="Sign up">
+            <input id="log-in" type="button" value="Log in">
+        </div>
+    </nav>
+    <main class="container flex">
+        <div class="left ">
+            <div class="library">
+                <div>
+                    <img class="invert-to-gray hamburger" src="assets/Images/library.svg" alt="">
+                    <p>Your Library</p>
+                </div>
+                <svg class="invert-to-gray" xmlns="http://www.w3.org/2000/svg" data-encore-id="icon" role="img"
+                    height="16" aria-hidden="true" viewBox="0 0 16 16" class="Svg-sc-ytk21e-0 dYnaPI">
+                    <path
+                        d="M15.25 8a.75.75 0 0 1-.75.75H8.75v5.75a.75.75 0 0 1-1.5 0V8.75H1.5a.75.75 0 0 1 0-1.5h5.75V1.5a.75.75 0 0 1 1.5 0v5.75h5.75a.75.75 0 0 1 .75.75z">
+                    </path>
+                </svg>
+                <img class="invert-to-gray close" src="assets/Images/close.svg" alt="">
+            </div>
+            <div class="playlist media-item">
+                <p>Songs</p>
+                <div class="library-list">
+                </div>
+            </div>
+            <div class="podcasts media-item">
+                <p>Let's find some podcasts to follow</p>
+                <p>We'll keep you updated on new episodes</p>
+                <button id="Browse-poadcasts">Browse podcasts</button>
+            </div>
+            <footer>
+                <div>
+                    <ul>
+                        <li><a>Legal</a></li>
+                        <li><a>Safety & Privacy Center</a></li>
+                        <li><a>Privacy Policy</a></li>
+                        <li><a>Cookies</a></li>
+                        <li><a>About Ads</a></li>
+                        <li><a>Accessibility</a></li>
+                    </ul>
+                    <p> <a>Cookies</a> </p>
+                </div>
+                <div class="lang-select">
+                    <svg class="invert-color" xmlns="http://www.w3.org/2000/svg" data-encore-id="icon" role="img"
+                        aria-hidden="true" viewBox="0 0 16 16" class="Svg-sc-ytk21e-0 dYnaPI">
+                        <path
+                            d="M8.152 16H8a8 8 0 1 1 .152 0zm-.41-14.202c-.226.273-.463.713-.677 1.323-.369 1.055-.626 2.496-.687 4.129h3.547c-.06-1.633-.318-3.074-.687-4.129-.213-.61-.45-1.05-.676-1.323-.194-.235-.326-.285-.385-.296h-.044c-.055.007-.19.052-.391.296zM4.877 7.25c.062-1.771.34-3.386.773-4.624.099-.284.208-.554.329-.806a6.507 6.507 0 0 0-4.436 5.43h3.334zm-3.334 1.5a6.507 6.507 0 0 0 4.436 5.43 7.974 7.974 0 0 1-.33-.806c-.433-1.238-.71-2.853-.772-4.624H1.543zm4.835 0c.061 1.633.318 3.074.687 4.129.214.61.451 1.05.677 1.323.202.244.336.29.391.297l.044-.001c.06-.01.19-.061.385-.296.226-.273.463-.713.676-1.323.37-1.055.626-2.496.687-4.129H6.378zm5.048 0c-.061 1.771-.339 3.386-.772 4.624-.082.235-.171.46-.268.674a6.506 6.506 0 0 0 4.071-5.298h-3.03zm3.031-1.5a6.507 6.507 0 0 0-4.071-5.298c.097.214.186.44.268.674.433 1.238.711 2.853.772 4.624h3.031z">
+                        </path>
+                    </svg>
+                    <button type="submit"> English</button>
+                </div>
+            </footer>
+        </div>
+        <div class="right">
+            <div class="myPlaylist">
+                <div id="loader"></div>
+                <h1>
+
+                    <a>Mood Playlist</a>
+                </h1>
+                <div class="cardContainer flex">
+                    <div class="play">
+                        <img src="assets/Images/play.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="allSong">
+                <h1><a>Recommended Songs</a></h1>
+                <div class="allList flex">
+
+                </div>
+            </div>
+            <div class="recentlyPlayed">
+                <h1><a>Recently Played</a></h1>
+                <div class="recentContainer cardContainer flex"></div>
+            </div>
+            <div class="playbar">
+                <div class="playbarContent">
+                    <div class="songinfo">
+                        <img src="assets/Images/cover.jpg" alt="cover" id="song-cover">
+                        <div class="song-text">
+                            <p id="song-title">Select a song</p>
+                            <p id="song-artist"></p>
+                        </div>
+                    </div>
+                    <div class="songbtns invert-color" id="player-toggle">
+                        <img src="assets/Images/prev.svg" alt="" id="prev">
+                        <img src="assets/Images/playsong.svg" alt="play" id="play">
+                        <img src="assets/Images/pause.svg" class="hidden" alt="" id="pause-icon">
+                        <img src="assets/Images/next.svg" alt="" id="next">
+                    </div>
+                    <div class="songtime">
+                        <p id="song-duration"> 00:00 / 00:00 </p>
+                        <div class="volume">
+                            <img class="invert-color vol-icon" src="assets/Images/volume.svg" alt="">
+                            <img class="invert-color mute-icon hidden" src="assets/Images/mute.svg" alt="">
+                            <div class="range">
+                                <input type="range" name="volume" value="10">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="seekbarDiv">
+                    <p></p>
+                    <div class="seekbar">
+
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
+            </div>
+
+
+            <footer>
+                <div class="foot-container">
+                    <div class="company">
+                        <p>Company</p>
+                        <div class="flex-column">
+                            <a href="About"> About</a>
+                            <a href="Jobs"> Jobs</a>
+                            <a href="Record"> Record</a>
+                        </div>
+                    </div>
+                    <div class="communities">
+                        <p>Communities</p>
+                        <div class="flex-column">
+                            <a href="for-artists"> For Artists</a>
+                            <a href="Developers"> Developers</a>
+                            <a href="advertising"> Adverstising</a>
+                            <a href="investors"> Investors</a>
+                            <a href="vendors"> Vendors</a>
+                        </div>
+                    </div>
+                    <div class="links">
+                        <p>Useful links</p>
+                        <div class="flex-column">
+                            <a href="support"> support</a>
+                            <a href="mobile-app"> Free Mobile App</a>
+                        </div>
+                    </div>
+                    <div class="plans">
+                        <p>Spotify Plans</p>
+                        <div class="flex-column">
+                            <a href="premium-individual"> Premium Individual</a>
+                            <a href="Duo"> Premium Duo</a>
+                            <a href="Family"> Premium Family</a>
+                            <a href="Student"> Premium Student</a>
+                            <a href="free"> Spotify Free</a>
+                        </div>
+                        <div class="social-links">
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p>@ 2025 Spotify Clone </p>
+                </div>
+            </footer>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

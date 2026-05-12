@@ -1,0 +1,303 @@
+@media (max-width: 1024px) {
+    .logo img {
+        margin-left: 10px;
+    }
+
+    main .left {
+        min-width: 25px;
+        max-width: 50px;
+        /* overflow-y: auto; */
+        transition: all .3s;
+    }
+
+    main .left.expanded {
+        min-width: 200px;
+        max-width: 280px;
+        transition: all .3s;
+    }
+
+    .library div {
+        font-size: 14px;
+    }
+
+    main .left p,
+    main .left ul,
+    main .left button {
+        opacity: 0;
+        pointer-events: none;
+
+    }
+
+    main .left.expanded p,
+    main .left.expanded ul,
+    main .left.expanded button {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .playlist {
+        min-height: 15%;
+    }
+
+    main .left.expanded .playlist {
+        min-height: 20%;
+    }
+
+    .media-item p:first-child {
+        font-size: 14px;
+    }
+
+    .podcasts p:first-child {
+        font-size: 12px;
+    }
+
+    .media-item p:last-child {
+        font-size: 12px;
+    }
+
+    .media-item button {
+        font-size: 12px;
+    }
+
+    .podcasts p:last-of-type {
+        font-size: 10px;
+    }
+
+    .left footer {
+        top: 20px;
+        width: 100%;
+        margin: 10px 4px 8px 3px;
+        padding-bottom: 100px;
+    }
+
+    .left footer ul {
+        gap: 10px;
+    }
+
+    .left footer ul li {
+        font-size: 9px;
+    }
+
+    main .left.expanded footer {
+        padding: 8px 15px 80px 15px;
+    }
+
+    main .left.expanded footer ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .lang-select {
+        margin: 0px 4px;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .right h1 a {
+        font-size: 20px;
+    }
+
+    .flex {
+        gap: 8px;
+    }
+
+    .cardContainer {
+        max-height: 34vh;
+    }
+
+    ::-webkit-scrollbar {
+        height: 6px;
+    }
+
+    .card {
+        width: 150px;
+    }
+
+    .card img {
+        height: 150px;
+    }
+
+    .card h3 {
+        font-size: 13px;
+    }
+
+    .card p {
+        font-size: 11.5px;
+    }
+
+    .playlistCard {
+        min-width: 150px;
+    }
+
+    .play {
+        height: 30px;
+        padding: 8px;
+    }
+
+    .playbar {
+        left: 0;
+        z-index: 202;
+    }
+
+    footer {
+        padding-bottom: 50px;
+    }
+
+
+    .library-song .info {
+        font-size: 8px;
+    }
+
+    .foot-container {
+        margin: 35px 0px;
+        font-size: 13px;
+    }
+
+    .foot-container a {
+        font-size: 11px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .search input {
+        height: 25px;
+        width: 100px;
+    }
+
+
+    .playlist {
+        min-height: 40%;
+    }
+
+}
+
+@media (max-width: 480px) {
+    main {
+        display: block;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    main .left {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100%;
+        z-index: 20;
+        transform: translate(-100%);
+        transition: transform 0.3s ease;
+    }
+
+    .left footer {
+        top: 20px;
+        padding-bottom: 50px;
+    }
+
+    main .left.expanded {
+        transform: translate(0);
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .left .close {
+        display: block;
+    }
+
+    nav .hamburger {
+        margin: 4px 2px;
+        padding: 4px 0px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logo img {
+        display: none;
+    }
+
+    .search-container {
+        gap: 5px;
+    }
+
+    #home-icon {
+        height: 18px;
+    }
+
+    .home {
+        padding: 5px;
+    }
+
+    #search,
+    #browse {
+        height: 18px;
+    }
+
+    #search {
+        padding: 0px 2px;
+    }
+
+
+    #browse {
+        padding-left: 8px;
+        padding-right: 4px;
+    }
+
+    .log {
+        gap: 10px;
+
+    }
+
+    .log input {
+        font-size: 14px;
+    }
+
+    .log #log-in {
+        padding: 12px 20px 12px 20px;
+    }
+
+    .lang-select {
+        margin: 0px 4px 18px 4px;
+    }
+
+    .right>div h1 a {
+        margin-top: 5px;
+    }
+
+    footer {
+        padding-bottom: 120px;
+    }
+
+    .playbar {
+        min-height: 80px;
+    }
+
+    .songtime {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+    }
+
+    #song-duration {
+        margin-left: 15px;
+    }
+
+    .seekbar {
+        height: 4px;
+    }
+
+
+    .library-song .info {
+        font-size: 10px;
+    }
+
+    .playlistCard {
+        transition: transform 0.2s ease, background 0.2s ease;
+    }
+
+}
